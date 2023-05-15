@@ -22,7 +22,7 @@ Para usar dados exportados pela classe criada usando Vue, basta colocar `{{ var 
 - `v-model` É a propriedade HTML para informar o nome para um elemento. Ex: `<input type="text" v-model="your_name"/>`
     - Para usar o valor deste input `your_name`, basta usar a variável: `{{ your_name }}` e o valor será atualizado em tempo real
 - `v-on:click` Serve para registrar um evento naquele elemento. Quando esse evento ocorrer, a função informada será chamada do seu objeto Vue 
-    - Para registrar um evento de click, basta inserir `v-model="funcao()"` no elemento desejado
+    - Para registrar um evento de click, basta inserir `v-on:click="funcao()"` no elemento desejado
 
 ### Criação do objeto Vue
 
