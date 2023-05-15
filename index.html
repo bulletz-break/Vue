@@ -12,6 +12,13 @@
         <p>
             Meu nome é {{ name }} e tenho {{ idade }} anos
         </p>
+        <p>
+            Data bidding: {{ input_name }}
+        </p>
+        <form id="app_form">
+            <input type="text" v-model="input_name" placeholder="Insira seu nome"/>
+            <input type="submit" value="Enviar" v-on:click="submit_form"/>
+        </form>
     </div>
 </body>
 </html>
