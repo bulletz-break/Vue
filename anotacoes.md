@@ -16,7 +16,7 @@ O Vue precisa de um objeto JS para funcionar
 ### Dados exportados
 
 Para usar dados exportados pela classe criada usando Vue, basta colocar `{{ var }}`.
-`{{}}` é a forma de usar a variável e `var` é o nome da variável
+- `{{}}` é a forma de usar a variável e `var` é o nome da variável
 
 ### Data Bidding
 - `v-model` É a propriedade HTML para informar o nome para um elemento. Ex: `<input type="text" v-model="your_name"/>`
